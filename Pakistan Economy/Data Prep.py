@@ -1,11 +1,5 @@
-# Importing Packages
+# Importing Package
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Using seaborn default style
-sns.set_style('darkgrid')
-sns.set_palette(sns.color_palette('muted'))
 
 # Importing Pakistan Economy Data
 cols_to_use = ['item_id', 'status', 'created_at', 'sku', 'price', 'qty_ordered', 'grand_total', 'increment_id', 'category_name_1', 'sales_commission_code', 'discount_amount', 'payment_method', 'Working Date', 'BI Status', 'Year', 'Month', 'Customer Since', 'FY', 'Customer ID']
